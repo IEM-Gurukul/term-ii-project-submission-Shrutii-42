@@ -35,6 +35,7 @@ public class Account {
         balance += amount;
     }
 
+
     // Withdraw
     public void withdraw(double amount) {
         if (amount <= 0) {
@@ -47,4 +48,8 @@ public class Account {
         }
         balance -= amount;
     }
+    @Override
+public String toString() {
+    return "ID: " + id + ", Name: " + name + ", Balance: " + balance;
+}
 }
