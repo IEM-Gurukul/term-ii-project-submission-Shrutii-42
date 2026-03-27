@@ -41,7 +41,7 @@ public class Main {
                     int id = sc.nextInt();
 
                     Account acc = service.getAccount(id);
-                    if (acc != null) {
+                    if (acc != null) { 
                         System.out.println("Name: " + acc.getName());
                         System.out.println("Balance: " + acc.getBalance());
                     } else {

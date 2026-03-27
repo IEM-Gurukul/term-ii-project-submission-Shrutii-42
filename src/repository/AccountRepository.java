@@ -18,7 +18,8 @@ public class AccountRepository {
     public List<Account> getAllAccounts() {
         return new ArrayList<>(accounts.values());
     }
+
     public void deleteAccount(int id) {
-    accounts.remove(id);
-}
+        accounts.remove(id);
+    }
 }
